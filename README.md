@@ -10,7 +10,7 @@ Ein lokaler Dienst auf einem meiner Rechner holt sich online bei Statistik Austr
 ### Daten
 * `data/codes.csv` beeinhaltet die zur Verfügung stehenden Indizes und deren voller Name aufgelistet.
 * `data/termine.csv` beeinhaltet die nächsten Veröffentlichungstermine der VPI Werte durch Statistik Austria.
-* `data/werte.csv` beeinhaltet alle für die Indizes zur Verfügung stehenden Werte. Die letzten (aktuellen) Werte der Indizes sind jeweils als vorläufige Werte zu betrachten und können sich unter Umständen ändern.
+* `data/werte.csv` beeinhaltet alle für die Indizes zur Verfügung stehenden Werte. Die jeweils letzten (aktuellen) Werte der Indizes sind als vorläufige Werte zu betrachten und können sich unter Umständen ändern.
 
 Die Werte können entweder durch klonen des Repos oder direkt (über GitHub) abgerufen werden.
 https://raw.githubusercontent.com/wischi-chr/AustriaVPI/master/data/werte.csv
