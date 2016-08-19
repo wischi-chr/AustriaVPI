@@ -1,13 +1,14 @@
-KPI_1938;Kleinhandelspreisindex (Basis: März 1938);
-LKI_1938;Lebenshaltungskostenindex für eine 4-köpfige Arbeiterfamilie (Basis: April 1938);
-LKI_1945;Lebenshaltungskostenindex für eine 4-köpfige Arbeiterfamilie (Basis: April 1945);
-VPI_1958_1;Verbraucherpreisindex durchschnittlicher Arbeitnehmerhaushalte (I) (Basis: 1958);
-VPI_1958_2;Verbraucherpreisindex vierköpfiger Arbeitnehmerhaushalte (II) (Basis: 1958);
-VPI_1966;Verbraucherpreisindex 66 (Basis: 1966);
-VPI_1976;Verbraucherpreisindex 76 (Basis: 1976);
-VPI_1986;Verbraucherpreisindex 86 (Basis: 1986);
-VPI_1996;Verbraucherpreisindex 96 (Basis: 1996);
-VPI_2000;Verbraucherpreisindex 2000 (Basis: 2000);
-VPI_2005;Verbraucherpreisindex 2005 (Basis: 2005);
-VPI_2010;Verbraucherpreisindex 2010 (Basis: 2010);
-VPI_2015;Verbraucherpreisindex 2015 (Basis: 2015);
+Index Code,Beschreibung
+KPI_1938,Kleinhandelspreisindex (Basis: März 1938)
+LKI_1938,Lebenshaltungskostenindex für eine 4-köpfige Arbeiterfamilie (Basis: April 1938)
+LKI_1945,Lebenshaltungskostenindex für eine 4-köpfige Arbeiterfamilie (Basis: April 1945)
+VPI_1958_1,Verbraucherpreisindex durchschnittlicher Arbeitnehmerhaushalte (I) (Basis: 1958)
+VPI_1958_2,Verbraucherpreisindex vierköpfiger Arbeitnehmerhaushalte (II) (Basis: 1958)
+VPI_1966,Verbraucherpreisindex 66 (Basis: 1966)
+VPI_1976,Verbraucherpreisindex 76 (Basis: 1976)
+VPI_1986,Verbraucherpreisindex 86 (Basis: 1986)
+VPI_1996,Verbraucherpreisindex 96 (Basis: 1996)
+VPI_2000,Verbraucherpreisindex 2000 (Basis: 2000)
+VPI_2005,Verbraucherpreisindex 2005 (Basis: 2005)
+VPI_2010,Verbraucherpreisindex 2010 (Basis: 2010)
+VPI_2015,Verbraucherpreisindex 2015 (Basis: 2015)
