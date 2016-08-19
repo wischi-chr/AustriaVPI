@@ -21,3 +21,7 @@ Es empfiehlt sich, die Daten lokal zu cachen, da sich die Indexwerte (i.d.R.) nu
 Die Werte werden direkt von der Statistik Austria Seite bezogen. Konkret handelt es sich dabei um die HTML Versionen der Indizes, welche downgeloaded und lokal geparst werden. Danach werden diese in einem CSV zusammengetragen:
 [http://www.statistik.at/.../zeitreihen_und_verkettungen/](http://www.statistik.at/web_de/statistiken/wirtschaft/preise/verbraucherpreisindex_vpi_hvpi/zeitreihen_und_verkettungen/index.html)
 
+Obwohl ältere Indizes über sogenannte [Verkettungsfaktoren](http://www.statistik.at/web_de/statistiken/wirtschaft/preise/verbraucherpreisindex_vpi_hvpi/zeitreihen_und_verkettungen/022116.html) verbunden sind, werden diese von Statistik Austria bezogen und nicht selbst berechnet, um eventuelle Rundungsfehler vorzubeugen.
+
+## Disclaimer
+Obwohl die Zusammenstellung mit großer Sorgfalt passiert kann die Richtigkeit, Aktualität und Vollständigkeit nicht garantiert werden. Sie können die hier zusammengetragenen Daten gerne nutzen, aber Sie tun dies auf eigene Verantwortung.
