@@ -24,4 +24,4 @@ Die Werte werden direkt von der Statistik Austria Seite bezogen. Konkret handelt
 Obwohl ältere Indizes über sogenannte [Verkettungsfaktoren](http://www.statistik.at/web_de/statistiken/wirtschaft/preise/verbraucherpreisindex_vpi_hvpi/zeitreihen_und_verkettungen/022116.html) verbunden sind, werden diese von Statistik Austria bezogen und nicht selbst berechnet, um eventuelle Rundungsfehler vorzubeugen.
 
 ## Disclaimer
-Obwohl die Zusammenstellung mit großer Sorgfalt passiert kann die Richtigkeit, Aktualität und Vollständigkeit nicht garantiert werden. Sie können die hier zusammengetragenen Daten gerne nutzen, aber Sie tun dies auf eigene Verantwortung.
+Obwohl die Zusammenstellung mit großer Sorgfalt passiert kann die Richtigkeit, Aktualität und Vollständigkeit nicht garantiert werden. Sie können die hier zusammengetragenen Daten gerne nutzen, aber Sie tun dies auf eigene Verantwortung. Sollten Sie einen Fehler entdecken würde ich mich sehr freuen wenn Sie ein Ticket eröffnen und den gefundenen Fehler kurz beschreiben, damit dieser behoben werden kann. - Danke für Ihre Mithilfe.
