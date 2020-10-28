@@ -1,6 +1,19 @@
 # AustriaVPI
 Verbraucherpreisindizes Österreichs
 
+## Update: Offizielle Quelle
+Inzwischen sind die Daten auch über data.gv.at verfügbar.
+Das Repository bleibt vorerst noch bestehen da eigene Entwicklungen auch bereits darauf basieren. Wenn Daten für eine Neuentwicklung benötigt werden sollten wenn möglich auf die offiziellen Daten zurückgegriffen werden:
+
+- [Verbraucherpreisindex Basis 1966](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1966)
+- [Verbraucherpreisindex Basis 1976](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1976)
+- [Verbraucherpreisindex Basis 1986](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1986)
+- [Verbraucherpreisindex Basis 1996](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1996)
+- [Verbraucherpreisindex Basis 2000](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-2000)
+- [Verbraucherpreisindex Basis 2005](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-2005)
+- [Verbraucherpreisindex Basis 2010](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-201001140)
+- [Verbraucherpreisindex Basis 2015](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-2015)
+
 ## Motivation
 Manchmal benötigt Software (aktuelle) Verbraucherpreisindexwerte, doch leider habe ich online keine vollständige, aktuelle, gewartete Liste gefunden. Die Werte bei Statistik Austria stehen zwar in unterschiedlichster Form zur Verfügung (Excel, PDF, HTML), jedoch leider nicht (für Software) in einfach interpretierbarer Form, da die existierenden Formate alle _störende_ Formatierung beeinhalten.
 
