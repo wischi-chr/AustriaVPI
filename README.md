@@ -1,40 +1,40 @@
 # AustriaVPI
-Verbraucherpreisindizes Österreichs
+Consumer Price Indices of Austria
 
-## Update: Offizielle Quelle
-Inzwischen sind die Daten auch über data.gv.at verfügbar.
-Das Repository bleibt vorerst noch bestehen da eigene Entwicklungen auch bereits darauf basieren. Wenn Daten für eine Neuentwicklung benötigt werden sollten wenn möglich auf die offiziellen Daten zurückgegriffen werden:
+## Update: Official Source
+In the meantime, the data is also available via data.gv.at.
+The repository will remain for now because my own developments are already based on it. If data is needed for a new development, the official data should be used if possible:
 
-- [Verbraucherpreisindex Basis 1966](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1966)
-- [Verbraucherpreisindex Basis 1976](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1976)
-- [Verbraucherpreisindex Basis 1986](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1986)
-- [Verbraucherpreisindex Basis 1996](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1996)
-- [Verbraucherpreisindex Basis 2000](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-2000)
-- [Verbraucherpreisindex Basis 2005](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-2005)
-- [Verbraucherpreisindex Basis 2010](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-201001140)
-- [Verbraucherpreisindex Basis 2015](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-2015)
+- [Consumer Price Index Base 1966](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1966)
+- [Consumer Price Index Base 1976](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1976)
+- [Consumer Price Index Base 1986](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1986)
+- [Consumer Price Index Base 1996](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-1996)
+- [Consumer Price Index Base 2000](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-2000)
+- [Consumer Price Index Base 2005](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-2005)
+- [Consumer Price Index Base 2010](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-201001140)
+- [Consumer Price Index Base 2015](https://www.data.gv.at/katalog/dataset/stat_verbraucherpreisindex-basis-2015)
 
 ## Motivation
-Manchmal benötigt Software (aktuelle) Verbraucherpreisindexwerte, doch leider habe ich online keine vollständige, aktuelle, gewartete Liste gefunden. Die Werte bei Statistik Austria stehen zwar in unterschiedlichster Form zur Verfügung (Excel, PDF, HTML), jedoch leider nicht (für Software) in einfach interpretierbarer Form, da die existierenden Formate alle _störende_ Formatierung beeinhalten.
+Sometimes software requires (current) consumer price index values, but unfortunately I did not find a complete, current, and maintained list online. Although the values from Statistics Austria are available in various formats (Excel, PDF, HTML), they are unfortunately not in an easily interpretable format (for software), since all existing formats contain _disruptive_ formatting.
 
-## Lösung
-Ein lokaler Dienst auf einem meiner Rechner holt sich online bei Statistik Austria selbstständig die aktuellen VPI Werte, sammelt diese und stellt sie danach in diesem Repository zur Verfügung. Die Werte werden als CSV abgelegt. Alle anderen eventuell benötigten Formate (z.B. XML, JSON, ... ) sind lokal von den CSV Datein abzuleiten und werden hier nicht zur Verfügung gestellt.
+## Solution
+A local service on one of my computers automatically fetches the current CPI values online from Statistics Austria, collects them and then makes them available in this repository. The values are saved as CSV. All other potentially required formats (e.g. XML, JSON, ...) must be derived locally from the CSV files and are not provided here.
 
-### Daten
-* `data/codes.csv` beeinhaltet die zur Verfügung stehenden Indizes und deren voller Name aufgelistet.
-* `data/termine.csv` beeinhaltet die nächsten Veröffentlichungstermine der VPI Werte durch Statistik Austria.
-* `data/werte.csv` beeinhaltet alle für die Indizes zur Verfügung stehenden Werte. Die jeweils letzten (aktuellen) Werte der Indizes sind als vorläufige Werte zu betrachten und können sich unter Umständen ändern.
+### Data
+* ~~`data/codes.csv` contains a list of the available indices and their full names.~~
+* ~~`data/termine.csv` contains the next publication dates of the CPI values by Statistics Austria.~~
+* `data/werte.csv` contains all available values for the indices. The respective latest (current) values of the indices are to be considered as preliminary values and may change under certain circumstances.
 
-Die Werte können entweder durch klonen des Repos oder direkt (über GitHub) abgerufen werden.
+The values can be retrieved either by cloning the repo or directly (via GitHub).
 https://raw.githubusercontent.com/wischi-chr/AustriaVPI/master/data/werte.csv
 
-Es empfiehlt sich, die Daten lokal zu cachen, da sich die Indexwerte (i.d.R.) nur zu den genannten Terminen ändern und GitHub kein FileHoster (im eigentlichen Sinne) ist. Aus technischen Gründen kann es jedoch sein, dass die Indexwerte hier im Repository ein paar Tage nach der Veröffentlichung erscheinen.
+It is recommended to cache the data locally, since the index values (usually) only change on the mentioned dates and GitHub is not a file hoster (in the true sense). For technical reasons, however, it may happen that the index values appear here in the repository a few days after publication.
 
-### Quelle
-Die Werte werden direkt von der Statistik Austria Seite bezogen. Konkret handelt es sich dabei um die HTML Versionen der Indizes, welche downgeloaded und lokal geparst werden. Danach werden diese in einem CSV zusammengetragen:
+### Source
+The values are obtained directly from the Statistics Austria website. Specifically, these are the HTML versions of the indices, which are downloaded and parsed locally. Afterwards, these are compiled into a CSV:
 [http://www.statistik.at/.../zeitreihen_und_verkettungen/](http://www.statistik.at/web_de/statistiken/wirtschaft/preise/verbraucherpreisindex_vpi_hvpi/zeitreihen_und_verkettungen/index.html)
 
-Obwohl ältere Indizes über sogenannte [Verkettungsfaktoren](http://www.statistik.at/web_de/statistiken/wirtschaft/preise/verbraucherpreisindex_vpi_hvpi/zeitreihen_und_verkettungen/022116.html) verbunden sind, werden diese von Statistik Austria bezogen und nicht selbst berechnet, um eventuelle Rundungsfehler vorzubeugen.
+Although older indices are linked via so-called [chaining factors](http://www.statistik.at/web_de/statistiken/wirtschaft/preise/verbraucherpreisindex_vpi_hvpi/zeitreihen_und_verkettungen/022116.html), these are obtained from Statistics Austria and not calculated by myself to prevent potential rounding errors.
 
 ## Disclaimer
-Obwohl die Zusammenstellung mit großer Sorgfalt passiert kann die Richtigkeit, Aktualität und Vollständigkeit nicht garantiert werden. Sie können die hier zusammengetragenen Daten gerne nutzen, aber Sie tun dies auf eigene Verantwortung. Sollten Sie einen Fehler entdecken würde ich mich sehr freuen wenn Sie ein Ticket eröffnen und den gefundenen Fehler kurz beschreiben, damit dieser behoben werden kann. - Danke für Ihre Mithilfe.
+Although the compilation is done with great care, correctness, timeliness, and completeness cannot be guaranteed. You are welcome to use the data compiled here, but you do so at your own risk. If you discover an error, I would be very happy if you open a ticket and briefly describe the found error so that it can be fixed. - Thank you for your help.
